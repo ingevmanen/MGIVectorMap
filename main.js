@@ -31,6 +31,18 @@ var mystyle = {
             }
         },
 		{
+            "id": "urban",
+            "type": "fill",
+            "source": "pdok",
+            "source-layer": "urban",
+			"filter": ["==", "lod1", "urban_area"],
+            "maxzoom": 22,
+            "minzoom": 0,
+            "paint": {
+                "fill-color" : '#FC0101'
+                }
+		},
+		{
             "id": "water",
             "type": "fill",
             "source": "pdok",
